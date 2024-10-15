@@ -4,14 +4,13 @@
     "description": "Support Django template syntax in CSS files",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.94.0"
+        "vscode": "^1.93.1"
     },
     "categories": [
-        "Other"
+        "Programming Languages"
     ],
     "activationEvents": [
-        "onLanguage:css",
-        "onLanguage:scss"
+        "onLanguage:css"
     ],
     "main": "./dist/extension.js",
     "contributes": {
@@ -56,7 +55,7 @@
     "devDependencies": {
         "@types/mocha": "^10.0.8",
         "@types/node": "20.x",
-        "@types/vscode": "^1.94.0",
+        "@types/vscode": "^1.93.1",
         "@typescript-eslint/eslint-plugin": "^8.7.0",
         "@typescript-eslint/parser": "^8.7.0",
         "@vscode/test-cli": "^0.0.10",

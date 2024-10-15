@@ -27,9 +27,6 @@
         "languages": [
             {
                 "id": "django-css",
-                "extensions": [
-                    ".css"
-                ],
                 "aliases": [
                     "Django CSS",
                     "django-css"

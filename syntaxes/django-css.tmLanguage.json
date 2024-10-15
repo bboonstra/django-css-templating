@@ -1,0 +1,24 @@
+{
+    "scopeName": "source.css.django",
+    "patterns": [
+        {
+            "begin": "{%",
+            "end": "%}",
+            "name": "keyword.control.template.django"
+        },
+        {
+            "begin": "{{",
+            "end": "}}",
+            "name": "variable.other.template.django"
+        }
+    ],
+    "injections": {
+        "source.css": {
+            "patterns": [
+                {
+                    "include": "#django-template-tags"
+                }
+            ]
+        }
+    }
+}

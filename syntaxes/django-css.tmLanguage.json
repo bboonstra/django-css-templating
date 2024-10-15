@@ -2,6 +2,9 @@
     "scopeName": "source.css.django",
     "patterns": [
         {
+            "include": "source.css"
+        },
+        {
             "begin": "{%",
             "end": "%}",
             "name": "keyword.control.template.django"
@@ -13,7 +16,7 @@
         }
     ],
     "injections": {
-        "source.css": {
+        "L:source.css": {
             "patterns": [
                 {
                     "include": "#django-template-tags"
